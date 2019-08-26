@@ -9,7 +9,7 @@ export default [
 	{
 		input: 'index.js',
 		output: {
-			name: 'howLongUntilLunch',
+			name: 'ring',
 			file: pkg.browser,
 			format: 'umd',
 		},
