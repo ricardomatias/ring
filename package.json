@@ -4,6 +4,37 @@
 	"main": "dist/ring.cjs.js",
 	"module": "dist/ring.esm.js",
 	"browser": "dist/ring.umd.js",
+	"description": "Your average array made cyclical by using Proxy",
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w",
+		"pretest": "npm run build",
+		"test": "npm run lint && jest",
+		"test:watch": "jest --watch",
+		"test:coverage": "jest --coverage",
+		"lint": "eslint lib test"
+	},
+	"files": [
+		"dist"
+	],
+	"author": {
+		"name": "Ricardo Matias",
+		"url": "https://github.com/ricardomatias"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ricardomatias/ring.git"
+	},
+	"homepage": "https://github.com/ricardomatias/ring",
+	"bugs": {
+		"url": "https://github.com/ricardomatias/ring/issues"
+	},
+	"license": "MIT",
+	"keywords": [
+		"array",
+		"cyclical",
+		"list"
+	],
 	"dependencies": {},
 	"devDependencies": {
 		"@babel/core": "^7.5.5",
@@ -18,17 +49,5 @@
 		"rollup-plugin-commonjs": "^10.0.0",
 		"rollup-plugin-node-resolve": "^5.1.0",
 		"rollup-plugin-terser": "^5.1.1"
-	},
-	"scripts": {
-		"build": "rollup -c",
-		"dev": "rollup -c -w",
-		"pretest": "npm run build",
-		"test": "npm run lint && jest",
-		"test:watch": "jest --watch",
-		"test:coverage": "jest --coverage",
-		"lint": "eslint lib test"
-	},
-	"files": [
-		"dist"
-	]
+	}
 }
