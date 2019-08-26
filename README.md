@@ -1,4 +1,4 @@
-# ring
+# ring [![Build Status](https://travis-ci.com/ricardomatias/ring.svg?branch=master)](https://travis-ci.com/ricardomatias/ring)
 
 Your average array made cyclical by using [`Proxy`](https://kangax.github.io/compat-table/es6/#test-Proxy)
 
