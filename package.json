@@ -13,10 +13,12 @@
 		"test": "npm run lint && jest",
 		"test:watch": "jest --watch",
 		"test:coverage": "jest --coverage",
-		"lint": "eslint lib test"
+		"lint": "eslint lib test",
+		"prepare": "npm run build"
 	},
 	"files": [
-		"dist"
+		"dist",
+		"index.d.ts"
 	],
 	"author": {
 		"name": "Ricardo Matias",
