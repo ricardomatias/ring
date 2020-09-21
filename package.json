@@ -1,6 +1,6 @@
 {
 	"name": "@ricardomatias/ring",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"main": "dist/ring.cjs.js",
 	"module": "dist/ring.esm.js",
 	"browser": "dist/ring.umd.js",
