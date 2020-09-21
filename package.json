@@ -5,6 +5,7 @@
 	"module": "dist/ring.esm.js",
 	"browser": "dist/ring.umd.js",
 	"description": "Your average array made cyclical by using Proxy",
+	"types": "index.d.ts",
 	"scripts": {
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
