@@ -2,10 +2,11 @@
 	"name": "@ricardomatias/ring",
 	"version": "0.0.7",
 	"main": "dist/ring.cjs.js",
-	"module": "dist/ring.esm.js",
+	"module": "index.js",
 	"browser": "dist/ring.umd.js",
 	"description": "Your average array made cyclical by using Proxy",
 	"types": "index.d.ts",
+	"type": "module",
 	"scripts": {
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
@@ -18,6 +19,7 @@
 	},
 	"files": [
 		"dist",
+		"index.js",
 		"index.d.ts"
 	],
 	"author": {
@@ -40,14 +42,14 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@babel/core": "^7.11.6",
-		"@babel/preset-env": "^7.11.5",
-		"babel-loader": "^8.1.0",
-		"eslint": "^7.9.0",
+		"@babel/core": "^7.15.8",
+		"@babel/preset-env": "^7.15.8",
+		"babel-loader": "^8.2.2",
+		"eslint": "^7.32.0",
 		"eslint-config-google": "^0.14.0",
-		"eslint-plugin-import": "^2.22.0",
-		"jest": "^26.4.2",
-		"rollup": "^2.28.1",
+		"eslint-plugin-import": "^2.24.2",
+		"jest": "^27.2.5",
+		"rollup": "^2.58.0",
 		"rollup-plugin-babel": "^4.4.0",
 		"rollup-plugin-commonjs": "^10.1.0",
 		"rollup-plugin-node-resolve": "^5.2.0",
