@@ -1,6 +1,6 @@
 {
 	"name": "@ricardomatias/ring",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"main": "index.js",
 	"browser": "dist/ring.umd.js",
 	"description": "Your average array made cyclical by using Proxy",
